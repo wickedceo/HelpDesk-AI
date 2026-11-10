@@ -1,18 +1,18 @@
-HelpDesk AI
+# HelpDesk AI
 
-Intelligent Customer Support Dashboard
+## Intelligent Customer Support Dashboard
 
 A modern customer support management dashboard built with React, TypeScript and Vite. HelpDesk AI brings ticket management, customer organisation, analytics and AI-assisted support workflows into one intuitive workspace.
 
-Features
+## Features
 
-Dashboard
+## Dashboard
 
 * Customer support overview and statistics.
 * Recent ticket activity.
 * Quick navigation across workspaces.
 
-Ticket Management
+## Ticket Management
 
 * Create and manage support tickets.
 * Search tickets by ID, subject or customer.
@@ -20,7 +20,7 @@ Ticket Management
 * Update ticket status and priority.
 * Delete tickets.
 
-Customer Management
+## Customer Management
 
 * View and search customer records.
 * Add new customers.
@@ -28,7 +28,7 @@ Customer Management
 * Delete customer records.
 * Contact customers through email links.
 
-AI Assistant
+## AI Assistant
 
 * Generate suggested customer support replies.
 * Create ticket summary suggestions.
@@ -37,7 +37,7 @@ AI Assistant
 * Start new requests.
 * Keyboard shortcut support.
 
-Analytics
+## Analytics
 
 * Support performance overview.
 * Weekly ticket activity visualisations.
@@ -52,7 +52,7 @@ User Experience
 * Profile dropdown.
 * Lazy-loaded analytics page.
 
-Technology Stack
+## Technology Stack
 
 Technology	Purpose
 React	UI development
@@ -63,7 +63,7 @@ Lucide React	Icon library
 Recharts	Data visualisation
 Oxlint	Code quality
 
-Getting Started
+## Getting Started
 
 Prerequisites
 
@@ -119,7 +119,7 @@ HelpDesk AI is currently an interactive frontend demonstration.
 * The AI Assistant generates rule-based example responses.
 * Backend persistence, authentication and live AI integration are not yet implemented.
 
-Roadmap
+## Roadmap
 
 * [ ]	Backend API integration
 * [ ]	Database persistence
@@ -131,12 +131,12 @@ Roadmap
 * [ ]	Email and notification integration
 * [ ]	Automated support workflows
 
-Quality Checks
+## Quality Checks
 
 npm run lint
 npm run build
 
-Project Purpose
+## Project Purpose
 
 This project demonstrates frontend engineering, component-based architecture, TypeScript, state management, dashboard development and interactive customer support workflows.
 
