@@ -169,8 +169,10 @@ npm run lint	Run Oxlint
 npm run build	Type-check and build for production
 npm run preview	Preview production build
 
-◈ PROJECT ARCHITECTURE
 
+## ◈ PROJECT ARCHITECTURE
+
+```text
 src/
 │
 ├── assets/
@@ -197,6 +199,7 @@ src/
 ├── App.css
 ├── index.css
 └── main.tsx
+```
 
 ◈ CURRENT IMPLEMENTATION
 
