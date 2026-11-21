@@ -1,125 +1,233 @@
-# HelpDesk AI
+ <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:080B18,45:142D50,100:2563EB&height=190&section=header&text=HELPDESK%20AI&fontSize=48&fontColor=FFFFFF&fontAlignY=48&stroke=3B82F6&strokeWidth=1" width="100%" />
 
-## Intelligent Customer Support Dashboard
+INTELLIGENT CUSTOMER SUPPORT DASHBOARD
 
-A modern customer support management dashboard built with React, TypeScript and Vite. HelpDesk AI brings ticket management, customer organisation, analytics and AI-assisted support workflows into one intuitive workspace.
+Smarter support operations. Organised workflows. Better customer experiences.
 
-## Features
+<br/>
+<img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/RECHARTS-172554?style=for-the-badge&logoColor=white" />
 
-## Dashboard
+FEATURES · TECH STACK · INSTALLATION · ROADMAP
 
-* Customer support overview and statistics.
-* Recent ticket activity.
-* Quick navigation across workspaces.
+</div>
 
-## Ticket Management
+⸻
 
-* Create and manage support tickets.
-* Search tickets by ID, subject or customer.
-* Filter by ticket status.
-* Update ticket status and priority.
-* Delete tickets.
+◈ OVERVIEW
 
-## Customer Management
+HelpDesk AI is a modern customer support management dashboard built with React, TypeScript, and Vite.
 
-* View and search customer records.
-* Add new customers.
-* Update customer status.
-* Delete customer records.
-* Contact customers through email links.
+It combines ticket management, customer organisation, support analytics, and AI-assisted workflows into a unified workspace.
 
-## AI Assistant
+Designed to simplify customer support operations through an intuitive interface, interactive tools, and structured information management.
 
-* Generate suggested customer support replies.
-* Create ticket summary suggestions.
-* Explore troubleshooting recommendations.
-* Copy generated responses.
-* Start new requests.
-* Keyboard shortcut support.
+◈ FEATURES
 
-## Analytics
+<table>
+<tr>
+<td width="50%">
 
-* Support performance overview.
-* Weekly ticket activity visualisations.
-* Ticket trends and reporting.
+◉ DASHBOARD
 
-User Experience
+* Customer support overview
+* Ticket statistics
+* Recent ticket activity
+* Workspace navigation
 
-* Modern dark dashboard interface.
-* Responsive navigation.
-* Global workspace search.
-* Interactive notification menu.
-* Profile dropdown.
-* Lazy-loaded analytics page.
+</td>
+<td width="50%">
 
-## Technology Stack
+◉ TICKET MANAGEMENT
 
-Technology	Purpose
-React	UI development
-TypeScript	Type safety
-Vite	Build tooling
+* Create and manage tickets
+* Search by ID, subject, or customer
+* Filter by status
+* Update status and priority
+* Delete tickets
+
+</td>
+</tr>
+<tr>
+<td>
+
+◉ CUSTOMER MANAGEMENT
+
+* View customer records
+* Search customers
+* Add new customers
+* Update customer status
+* Delete customer records
+* Email contact links
+
+</td>
+<td>
+
+◉ AI ASSISTANT
+
+* Suggested support replies
+* Ticket summary suggestions
+* Troubleshooting recommendations
+* Copy generated responses
+* Start new requests
+* Keyboard shortcut support
+
+</td>
+</tr>
+<tr>
+<td>
+
+◉ ANALYTICS
+
+* Support performance overview
+* Weekly ticket activity
+* Ticket trends
+* Reporting visualisations
+
+</td>
+<td>
+
+◉ USER EXPERIENCE
+
+* Modern dark dashboard
+* Responsive navigation
+* Global workspace search
+* Interactive notifications
+* Profile dropdown
+* Lazy-loaded analytics
+
+</td>
+</tr>
+</table>
+
+◈ TECHNOLOGY STACK
+
+<div align="center">
+
+FRONTEND
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+
+VISUALISATION & INTERFACE
+
+<img src="https://img.shields.io/badge/Recharts-172554?style=flat-square" />
+<img src="https://img.shields.io/badge/Lucide_React-111827?style=flat-square&logo=lucide&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white" />
+
+CODE QUALITY
+
+<img src="https://img.shields.io/badge/Oxlint-111827?style=flat-square" />
+</div>
+
+TECHNOLOGY	PURPOSE
+React	Component-based UI development
+TypeScript	Static typing and maintainability
+Vite	Development and production builds
 CSS	Styling and responsive layouts
-Lucide React	Icon library
+Lucide React	Interface iconography
 Recharts	Data visualisation
-Oxlint	Code quality
+Oxlint	Code quality checks
 
-## Getting Started
+◈ GETTING STARTED
 
-Prerequisites
+Requirements
 
 * Node.js 20.19+ or 22.12+
 * npm
+* Git
 
-Installation
+01 — Clone Repository
+
+Replace YOUR_REPOSITORY_URL with the actual GitHub clone URL.
 
 git clone YOUR_REPOSITORY_URL
+
+02 — Navigate to Project
+
 cd HelpDesk-AI
+
+03 — Install Dependencies
+
 npm install
+
+04 — Start Development Server
+
 npm run dev
 
-Open the local URL provided by Vite.
+Open the local URL provided by Vite in your browser.
 
-Available Scripts
+◈ AVAILABLE SCRIPTS
 
-Command	Description
+COMMAND	DESCRIPTION
 npm run dev	Start development server
 npm run lint	Run Oxlint
 npm run build	Type-check and build for production
 npm run preview	Preview production build
 
-Project Structure
+◈ PROJECT ARCHITECTURE
 
 src/
+│
 ├── assets/
+│
 ├── components/
 │   ├── Header.tsx
 │   ├── Sidebar.tsx
 │   └── StatCard.tsx
+│
 ├── data/
 │   └── mockData.ts
+│
 ├── pages/
 │   ├── Dashboard.tsx
 │   ├── Tickets.tsx
 │   ├── Customers.tsx
 │   ├── Analytics.tsx
 │   └── AIAssistant.tsx
+│
 ├── types/
 │   └── index.ts
+│
 ├── App.tsx
 ├── App.css
 ├── index.css
 └── main.tsx
 
-Current Implementation
+◈ CURRENT IMPLEMENTATION
 
 HelpDesk AI is currently an interactive frontend demonstration.
 
-* Ticket and customer changes are managed in local React state.
-* Records and analytics use demonstration data.
-* The AI Assistant generates rule-based example responses.
-* Backend persistence, authentication and live AI integration are not yet implemented.
+<details>
+<summary><b>01 — Data Management</b></summary>
 
-## Roadmap
+Ticket and customer changes are managed through local React state.
+
+Records and analytics currently use demonstration data.
+
+</details>
+<details>
+<summary><b>02 — AI Assistant</b></summary>
+
+The AI Assistant currently generates rule-based example responses.
+
+Live AI API integration has not yet been implemented.
+
+</details>
+<details>
+<summary><b>03 — Backend Infrastructure</b></summary>
+
+Backend persistence, authentication, and database integration are not yet implemented.
+
+</details>
+
+◈ DEVELOPMENT ROADMAP
+
+The following improvements are planned for future development:
 
 * [ ]	Backend API integration
 * [ ]	Database persistence
@@ -131,16 +239,46 @@ HelpDesk AI is currently an interactive frontend demonstration.
 * [ ]	Email and notification integration
 * [ ]	Automated support workflows
 
-## Quality Checks
+◈ QUALITY ASSURANCE
+
+Run the available project checks:
+
+Code Quality
 
 npm run lint
+
+Production Build
+
 npm run build
 
-## Project Purpose
+◈ PROJECT PURPOSE
 
-This project demonstrates frontend engineering, component-based architecture, TypeScript, state management, dashboard development and interactive customer support workflows.
+HelpDesk AI demonstrates practical frontend engineering through:
 
-⸻
+* Component-based architecture
+* TypeScript application development
+* React state management
+* Interactive dashboard design
+* Customer and ticket management workflows
+* Data visualisation
+* AI-assisted interface development
 
-HelpDesk AI
-Making customer support operations more organised, accessible and efficient.
+◈ AUTHOR & OWNERSHIP
+
+<div align="center">
+<img src="https://img.shields.io/badge/DEVELOPED_BY-WICKEDCEO-111111?style=for-the-badge&logo=github&logoColor=white" />
+
+WICKEDCEO
+
+GitHub Profile
+
+Original project work and intellectual property belong to WICKEDCEO unless otherwise stated. Repository-specific licensing terms apply.
+
+<br/>
+
+HELPDESK AI
+
+SUPPORT. INTELLIGENCE. EFFICIENCY.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563EB,100:080B18&height=4&section=footer" width="100%" />
+</div>
